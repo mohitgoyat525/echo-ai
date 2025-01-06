@@ -15,6 +15,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-bg": "url('/public/assets/images/webp/hero-bg.webp')",
+      },
+        colors: {
+        'sky-blue': '#32C7F1',
+        'dark-blue'  : '#01000B',
+        'light-pink' : '#B3B2B6'
       }
     },
   },
