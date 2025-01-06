@@ -1,18 +1,38 @@
 import React from 'react'
-import { PROJECTS_LIST } from '../utils/helper';
+import { PROJECTS_LIST, RESULTS_AI_LIST } from '../utils/helper';
+import CustomHeading from '../common/CustomHeading';
 
 const Projects = () => {
     return (
       <div className="pt-[56px] max-lg:pt-10 max-md:pt-8">
-            <div className=" container">
-                <div className='flex items-center max-lg:flex-wrap'>
-                    {PROJECTS_LIST.map((obj, i) => (
-                        <div key={i} className={`w-full max-w-[384px] max-md:max-w-[350px] max-lg:mx-auto max-lg:gap-5 ${i=== 0? "border-right":1?"border-right":''}`}>
-                            <h2 className='text-white text-[48px] font-semibold leading-[57.6px] text-center'>{obj.heading}</h2>
-                            <p className={`text-white font-normal text-base text-center leading-[30px] pt-6 max-w-[146px] mx-auto ${i===2? 'max-w-[186px]':''}`}>{obj.description}</p>
-                        </div>
-                    ))}
+        <div className="max-w-[1138px] mx-auto">
+          <div className="flex max-lg:flex-wrap justify-center gap-y-10 max-md:gap-[30px]">
+            {RESULTS_AI_LIST.map((item, index) => (
+              <div
+                className={`w-4/12 max-lg:w-1/2 max-md:w-full justify-center flex max-md:pr-0 pr-[17px] border-r-liner border-solid   ${
+                  index === 1
+                    ? "max-lg:border-r-0"
+                    : index === 2
+                    ? "!border-r-0 max-lg:w-full max-lg:pr-0 "
+                    : ""
+                }`}
+              >
+                <div className="max-w-[365px] justify-center items-center flex flex-col">
+                  <CustomHeading
+                    customClass={"pb-2"}
+                    sectionHeading={item.heading}
+                  />
+                  <p
+                    className={`max-w-[146px] text-center text-white leading-[150%] text-base max-md:text-sm ${
+                      index === 2 ? "max-w-[187px]" : "max-w-[146px]"
+                    }`}
+                  >
+                    {item.subHeading}{" "}
+                  </p>
                 </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     );

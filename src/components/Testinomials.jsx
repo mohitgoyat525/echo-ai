@@ -59,7 +59,7 @@ const Testinomials = () => {
               </p>
               <div
                 className={`flex items-center gap-2  ${
-                  i === 2 ? "mt-6" : "mt-[47px]"
+                  i === 2 ? "mt-6" : i ===5 ? "mt-6": "mt-[47px]"
                 }`}
               >
                 <img src={obj.user} alt="user" className="w-[60px] h-[60px]" />
