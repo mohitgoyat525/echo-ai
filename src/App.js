@@ -1,5 +1,6 @@
 
 import './App.css';
+import Footer from './common/Footer';
 import CustomFaq from './components/CustomFaq';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
@@ -11,7 +12,8 @@ function App() {
       <Hero />
       <Projects />
       <Testinomials />
-      <CustomFaq/>
+      <CustomFaq />
+      <Footer/>
     </>
   );
 }

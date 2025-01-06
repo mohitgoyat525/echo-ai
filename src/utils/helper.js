@@ -111,3 +111,11 @@ export const FAQ_DATA_LIST = [
       "AI automation leverages artificial intelligence to perform tasks traditionally requiring human intelligence, such as learning, data analysis, and decision-making. In a business context, it offers limitless potential, from optimizing operational efficiency to enhancing customer experience. It’s like having a digital assistant that works 24/7, processing information and making decisions based on data and learned experiences.",
   },
 ];
+
+export const FOOTER_LIST = [
+  "About us",
+  "Solutions",
+  "Benefits",
+  "Testimonials",
+  "FAQs",
+];
