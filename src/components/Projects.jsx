@@ -3,7 +3,7 @@ import { PROJECTS_LIST } from '../utils/helper';
 
 const Projects = () => {
     return (
-      <div className="bg-[#01000B] pt-[56px] max-lg:pt-10 max-md:pt-8">
+      <div className="pt-[56px] max-lg:pt-10 max-md:pt-8">
             <div className=" container">
                 <div className='flex items-center max-lg:flex-wrap'>
                     {PROJECTS_LIST.map((obj, i) => (
