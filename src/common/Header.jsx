@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { NAVBAR_LIST } from '../utils/helper';
+import CustomBtn from './CustomBtn';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,15 +45,17 @@ const Header = () => {
             </li>
           ))}
           <li>
-            <button className="lg:hidden min-w-[172px] text-xl font-semibold text-white py-[13.5px] px-[22px] border border-solid rounded-full header-btn">
-              Get Started
-            </button>
+            <CustomBtn
+              myClass="lg:hidden min-w-[172px] py-[13.5px]"
+              btnText="Get Started"
+            />
           </li>
         </ul>
       </div>
-      <button className="max-lg:hidden min-w-[172px] text-xl font-semibold text-white py-[13.5px] px-[22px] border border-solid rounded-full header-btn ">
-        Get Started
-      </button>
+      <CustomBtn
+        myClass="max-lg:hidden min-w-[172px] py-[13.5px]"
+        btnText="Get Started"
+      />
       <button
         onClick={handler}
         className="flex flex-col justify-center items-center z-50 gap-1 lg:hidden relative w-6 h-6"

@@ -2,8 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+     font-family: "Outfit", serif;
+}
 
 .header-btn{
     background: linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%);
+
+}
+
+.border-right{
+    border-right: 1px solid !important;
+border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%) !important;
+}
+
+.slider-bg-color{
+    background: linear-gradient(180deg, rgba(59, 40, 246, 0.22) 0%, rgba(59, 40, 246, 0) 100%);
 
 }
