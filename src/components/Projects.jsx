@@ -1,5 +1,5 @@
 import React from 'react'
-import { PROJECTS_LIST, RESULTS_AI_LIST } from '../utils/helper';
+import { RESULTS_LIST } from '../utils/helper';
 import CustomHeading from '../common/CustomHeading';
 
 const Projects = () => {
@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="pt-[56px] max-lg:pt-10 max-md:pt-8">
         <div className="max-w-[1138px] mx-auto">
           <div className="flex max-lg:flex-wrap justify-center gap-y-10 max-md:gap-[30px]">
-            {RESULTS_AI_LIST.map((item, index) => (
+            {RESULTS_LIST.map((item, index) => (
               <div
                 className={`w-4/12 max-lg:w-1/2 max-md:w-full justify-center flex max-md:pr-0 pr-[17px] border-r-liner border-solid   ${
                   index === 1

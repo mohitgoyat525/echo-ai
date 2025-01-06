@@ -120,7 +120,7 @@ export const FOOTER_LIST = [
   "FAQs",
 ];
 
-export const RESULTS_AI_LIST = [
+export const RESULTS_LIST = [
   {
     heading: "99%",
     subHeading: "Of all businesses see results with AI",

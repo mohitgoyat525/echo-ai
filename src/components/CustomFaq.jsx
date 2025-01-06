@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FaqArrow } from '../utils/icons';
 import { FAQ_DATA_LIST } from '../utils/helper';
+import CustomHeading from '../common/CustomHeading';
 
 const CustomFaq = () => {
       const [active, setActive] = useState(0);
@@ -8,10 +9,10 @@ const CustomFaq = () => {
         setActive(active === index ? null : index);
       };
   return (
-    <div className="container pt-[210px] max-xl:py-[170px] max-lg:py-24 max-md:py-14">
-      <h2 className="text-white text-center text-[48px] font-semibold leading-[57.6px] py-[56px]">
-        FAQ's
-      </h2>
+    <div className="container pt-[210px] max-xl:pt-[170px] max-lg:pt-24 max-md:pt-14 max-sm:pt-10">
+      <div className='pb-[60px] max-lg:pb-10'>
+        <CustomHeading sectionHeading="FAQ's" />
+        </div>
       <div className="max-w-[1022px] flex flex-col gap-6 mx-auto">
         {FAQ_DATA_LIST.map((item, index) => (
           <div

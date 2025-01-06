@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="bg-dark-blue px-5 pt-[356px] max-xl:pt-[300px] max-lg:pt-[200px] max-md:pt-[150px] -mt-1 max-sm:pt-[96px]">
         <div className="max-w-[1140px] mx-auto flex justify-between max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:gap-10">
           <a href="/">
-            <img className="max-w-[150px]" src='/assets/images/png/footer-logo.png' alt="footerLogo" />
+            <img className="max-w-[150px] max-md:max-w-32" src='/assets/images/png/footer-logo.png' alt="footerLogo" />
           </a>
           <div className="flex flex-col gap-3.5">
             <p className="text-base leading-[20px] max-sm:leading-[16px] max-sm:text-center text-white">
@@ -18,7 +18,7 @@ const Footer = () => {
             {FOOTER_LIST.map((item, index) => (
               <a
                 key={index}
-                className="text-base leading-[20px] max-sm:text-sm max-sm:leading-[16px] text-light-pink hover:text-sky-blue cursor-pointer max-sm:text-center"
+                className="text-base leading-[20px] max-sm:text-sm max-sm:leading-[16px] opacity-80 text-white  hover:text-sky-blue cursor-pointer max-sm:text-center"
                 href="/"
               >
                 {item}
@@ -30,7 +30,7 @@ const Footer = () => {
               Send Us An E-mail
             </p>
             <a
-              className="text-base leading-[20px] max-sm:leading-[16px] text-light-pink max-sm:text-center hover:text-sky-blue cursor-pointer"
+              className="text-base leading-[20px] max-sm:leading-[16px] text-white opacity-80 max-sm:text-center hover:text-sky-blue cursor-pointer"
               href="mailto:info@echoai.ai"
             >
               info@echoai.ai

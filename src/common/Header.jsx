@@ -24,7 +24,7 @@ const Header = () => {
         <img
           src="/assets/images/png/logo.png"
           alt="logo"
-          className="w-full max-w-[192px]"
+          className="w-full max-w-[192px] max-xl:max-w-[160px]"
         />
       </a>
 
