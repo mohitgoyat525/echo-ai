@@ -45,7 +45,7 @@ const Testinomials = () => {
       >
         {TESTINOMIALS_LIST.map((obj, i) => (
           <SwiperSlide key={i}>
-            <div className="w-full min-w-[364px] max-sm:min-w-[320px] slider-bg-color rounded-t-3xl pt-6 px-6 pb-10">
+            <div className="w-full min-w-[364px] max-sm:min-w-[320px] slider-bg-color rounded-t-3xl pt-6 px-6 pb-14 max-sm:pb-10">
               <h3 className="text-white text-2xl font-medium leading-[28.8px]">
                 {obj.heading}
               </h3>
@@ -61,7 +61,7 @@ const Testinomials = () => {
                   i === 2 ? "mt-6" : i ===5 ? "mt-6": "mt-[47px]"
                 }`}
               >
-                <img src={obj.user} alt="user" className="w-[60px] h-[60px]" />
+                <img src={obj.user} alt="user" className="w-[60px] h-[60px] cursor-pointer" />
                 <div className="flex flex-col">
                   <p className="text-white text-start font-medium text-2xl max-sm:text-xl">
                     {obj.useName}
