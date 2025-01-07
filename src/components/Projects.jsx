@@ -23,7 +23,7 @@ const Projects = () => {
                     sectionHeading={item.heading}
                   />
                   <p
-                    className={`max-w-[146px] text-center text-white leading-[150%] text-base max-md:text-sm ${
+                    className={`max-w-[146px] text-center text-white leading-6 font-normal text-base max-md:text-sm ${
                       index === 2 ? "max-w-[187px]" : "max-w-[146px]"
                     }`}
                   >

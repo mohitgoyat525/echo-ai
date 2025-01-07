@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
         <div className="flex max-w-[1140px] pb-[30px] flex-col pt-[60px] mx-auto">
           <div className="footer-line h-0.5 w-full"></div>
-          <p className="text-white text-center pt-5 leading-[150%] max-sm:text-sm">
+          <p className="text-white text-center pt-5 leading-6 font-normal text-base max-sm:text-sm">
             Copyright ECHO AI © {year} | All Rights Reserved
           </p>
         </div>
