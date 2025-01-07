@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaqArrow } from "../utils/icons";
-import { FAQ_DATA_LIST } from "../utils/helper";
+import { FAQ_LIST } from "../utils/helper";
 import CustomHeading from "../common/CustomHeading";
 
 const CustomFaq = () => {
@@ -15,7 +15,7 @@ const CustomFaq = () => {
         <CustomHeading sectionHeading="FAQ's" />
       </div>
       <div className="max-w-[1022px] flex flex-col gap-6 mx-auto">
-        {FAQ_DATA_LIST.map((item, index) => (
+        {FAQ_LIST.map((item, index) => (
           <div
             key={index}
             className={`max-w-[1022px] w-full mx-auto p-[1px] rounded-xl ${

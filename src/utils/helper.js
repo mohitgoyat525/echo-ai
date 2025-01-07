@@ -6,18 +6,20 @@ export const NAVBAR_LIST = [
   { name: "FAQs", path: "/faq" },
 ];
 
-export const PROJECTS_LIST = [
+export const RESULTS_LIST = [
   {
     heading: "99%",
-    description: "Of all businesses see results with AI",
+    subHeading: "Of all businesses see results with AI",
   },
+
   {
     heading: "$15T",
-    description: "Projected global AI market cap by 2030",
+    subHeading: "Projected global AI market cap by 2030",
   },
+
   {
     heading: "3.5X",
-    description: "More likely to outperform competitors with AI",
+    subHeading: "More likely to outperform competitors with AI",
   },
 ];
 
@@ -72,7 +74,7 @@ export const TESTINOMIALS_LIST = [
   },
 ];
 
-export const FAQ_DATA_LIST = [
+export const FAQ_LIST = [
   {
     heading: "What is AI Automation?",
     subHeading:
@@ -118,21 +120,4 @@ export const FOOTER_LIST = [
   "Benefits",
   "Testimonials",
   "FAQs",
-];
-
-export const RESULTS_LIST = [
-  {
-    heading: "99%",
-    subHeading: "Of all businesses see results with AI",
-  },
-
-  {
-    heading: "$15T",
-    subHeading: "Projected global AI market cap by 2030",
-  },
-
-  {
-    heading: "3.5X",
-    subHeading: "More likely to outperform competitors with AI",
-  },
 ];

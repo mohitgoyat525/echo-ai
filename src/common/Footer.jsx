@@ -6,8 +6,8 @@ const Footer = () => {
     const year = new Date().getFullYear();
   return (
     <footer>
-      <div className="bg-dark-blue px-5 pt-[356px] max-xl:pt-[300px] max-lg:pt-[200px] max-md:pt-[150px] -mt-1 max-sm:pt-[96px]">
-        <div className="max-w-[1140px] mx-auto flex justify-between max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:gap-10">
+      <div className=" px-5 pt-[356px] max-xl:pt-[300px] max-lg:pt-[200px] max-md:pt-[150px] -mt-1 max-sm:pt-[96px]">
+        <div className="container flex justify-between max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:gap-10">
           <a href="/">
             <img
               className="max-w-[150px] max-md:max-w-32"
