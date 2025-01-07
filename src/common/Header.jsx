@@ -38,8 +38,7 @@ const Header = () => {
             <li key={i} className={`${i === 6 ? "hidden" : ""}`}>
               <a
                 href={obj.path}
-                className="transition-all ease-linear duration-300 hover:text-sky-blue text-base font-normal text-white"
-              >
+                className="transition-all ease-linear duration-300 hover:text-sky-blue text-base font-normal text-white">
                 {obj.name}
               </a>
             </li>

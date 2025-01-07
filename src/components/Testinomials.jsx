@@ -41,8 +41,7 @@ const Testinomials = () => {
             spaceBetween: 40,
           },
         }}
-        className="mySwiper"
-      >
+        className="mySwiper">
         {TESTINOMIALS_LIST.map((obj, i) => (
           <SwiperSlide key={i}>
             <div className="w-full min-w-[364px] max-sm:min-w-[320px] slider-bg-color rounded-t-3xl pt-6 px-6 pb-14 max-sm:pb-10">

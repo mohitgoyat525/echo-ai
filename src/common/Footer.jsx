@@ -34,7 +34,7 @@ const Footer = () => {
               Send Us An E-mail
             </p>
             <a
-              className="text-base leading-[20px] max-sm:leading-[16px] text-white opacity-80 max-sm:text-center cursor-pointer"
+              className="text-base leading-[20px] max-sm:leading-[16px] transition-all ease-linear duration-200  hover:text-sky-blue text-white opacity-80 max-sm:text-center cursor-pointer"
               href="mailto:info@echoai.ai"
             >
               info@echoai.ai
