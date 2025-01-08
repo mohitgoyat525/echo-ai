@@ -58,7 +58,7 @@ const Header = () => {
       />
       <button
         onClick={handler}
-        className="flex flex-col justify-center items-center z-50 gap-1 lg:hidden relative w-6 h-6"
+        className="flex flex-col justify-center items-center z-50 gap-1 lg:hidden relative size-6"
       >
         <span
           className={`h-1 w-full bg-white rounded transition-all duration-300 ${
