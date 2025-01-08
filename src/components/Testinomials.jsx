@@ -12,7 +12,7 @@ const Testimonials = () => {
   return (
     <div
       id="testimonials"
-      className="max-w-[1150px] mx-auto p-4 pt-[175px] max-lg:pt-32 max-md:pt-20 max-sm:pt-10"
+      className="max-w-[1150px] mx-auto pb-10 pt-[175px] max-lg:pt-32 max-md:pt-20 max-sm:pt-10"
     >
       <CustomHeading sectionHeading="Testimonials" customClass="pb-10" />
       <Swiper
@@ -49,7 +49,7 @@ const Testimonials = () => {
       >
         {TESTINOMIALS_LIST.map((obj, i) => (
           <SwiperSlide key={i}>
-            <div className="w-full min-w-[364px] max-sm:min-w-[320px] slider-bg-color rounded-t-3xl pt-6 px-6 pb-14 max-sm:pb-10">
+            <div className="w-full min-w-[364px] max-sm:min-w-[320px] slider-bg-color rounded-t-3xl pt-6 px-6 pb-14 pb-10">
               <h3 className="text-white text-2xl font-medium leading-[28.8px]">
                 {obj.heading}
               </h3>
