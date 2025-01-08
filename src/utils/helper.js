@@ -1,25 +1,25 @@
 export const NAVBAR_LIST = [
-  { name: "About us", path: "/about" },
-  { name: "Solutions", path: "/solution" },
-  { name: "Benefits", path: "/benefits" },
-  { name: "Testimonials", path: "/testimonials" },
-  { name: "FAQs", path: "/faq" },
+  { name: "About us", link: "#about" },
+  { name: "Solutions", link: "#solution" },
+  { name: "Benefits", link: "#benefits" },
+  { name: "Testimonials", link: "#testimonials" },
+  { name: "FAQs", link: "#faq" },
 ];
 
 export const RESULTS_LIST = [
   {
     heading: "99%",
-    subHeading: "Of all businesses see results with AI",
+    description: "Of all businesses see results with AI",
   },
 
   {
     heading: "$15T",
-    subHeading: "Projected global AI market cap by 2030",
+    description: "Projected global AI market cap by 2030",
   },
 
   {
     heading: "3.5X",
-    subHeading: "More likely to outperform competitors with AI",
+    description: "More likely to outperform competitors with AI",
   },
 ];
 
@@ -77,47 +77,47 @@ export const TESTINOMIALS_LIST = [
 export const FAQ_LIST = [
   {
     heading: "What is AI Automation?",
-    subHeading:
+    description:
       "AI automation leverages artificial intelligence to perform tasks traditionally requiring human intelligence, such as learning, data analysis, and decision-making. In a business context, it offers limitless potential, from optimizing operational efficiency to enhancing customer experience. It’s like having a digital assistant that works 24/7, processing information and making decisions based on data and learned experiences.",
   },
 
   {
     heading: "How can AI Automation help me scale my business?",
-    subHeading:
+    description:
       "AI automation leverages artificial intelligence to perform tasks traditionally requiring human intelligence, such as learning, data analysis, and decision-making. In a business context, it offers limitless potential, from optimizing operational efficiency to enhancing customer experience. It’s like having a digital assistant that works 24/7, processing information and making decisions based on data and learned experiences.",
   },
 
   {
     heading:
       "How does ECHO AI ensure their AI solutions are tailored to my business?",
-    subHeading:
+    description:
       "AI automation leverages artificial intelligence to perform tasks traditionally requiring human intelligence, such as learning, data analysis, and decision-making. In a business context, it offers limitless potential, from optimizing operational efficiency to enhancing customer experience. It’s like having a digital assistant that works 24/7, processing information and making decisions based on data and learned experiences.",
   },
 
   {
     heading:
       "How does ECHO AI ensure their AI solutions are tailored to my business?",
-    subHeading:
+    description:
       "AI automation leverages artificial intelligence to perform tasks traditionally requiring human intelligence, such as learning, data analysis, and decision-making. In a business context, it offers limitless potential, from optimizing operational efficiency to enhancing customer experience. It’s like having a digital assistant that works 24/7, processing information and making decisions based on data and learned experiences.",
   },
 
   {
     heading: "How much do your AI Automation solutions cost?",
-    subHeading:
+    description:
       "AI automation leverages artificial intelligence to perform tasks traditionally requiring human intelligence, such as learning, data analysis, and decision-making. In a business context, it offers limitless potential, from optimizing operational efficiency to enhancing customer experience. It’s like having a digital assistant that works 24/7, processing information and making decisions based on data and learned experiences.",
   },
 
   {
     heading: "Sounds good, so how do I get started? ",
-    subHeading:
+    description:
       "AI automation leverages artificial intelligence to perform tasks traditionally requiring human intelligence, such as learning, data analysis, and decision-making. In a business context, it offers limitless potential, from optimizing operational efficiency to enhancing customer experience. It’s like having a digital assistant that works 24/7, processing information and making decisions based on data and learned experiences.",
   },
 ];
 
 export const FOOTER_LIST = [
-  "About us",
-  "Solutions",
-  "Benefits",
-  "Testimonials",
-  "FAQs",
+  { name: "About us", link: "#about" },
+  { name: "Solutions", link: "#solution" },
+  { name: "Benefits", link: "#benefits" },
+  { name: "Testimonials", link: "#testimonials" },
+  { name: "FAQs", link: "#faq" },
 ];

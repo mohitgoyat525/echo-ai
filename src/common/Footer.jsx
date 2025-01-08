@@ -23,9 +23,9 @@ const Footer = () => {
               <a
                 key={index}
                 className="text-base leading-[20px] max-sm:text-sm max-sm:leading-[16px] opacity-80 text-white transition-all ease-linear duration-200  hover:text-sky-blue cursor-pointer max-sm:text-center"
-                href="/"
+                href={item.link}
               >
-                {item}
+                {item.name}
               </a>
             ))}
           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
               info@echoai.ai
             </a>
             <p className="text-base leading-[20px] max-sm:leading-[16px] pt-8 text-white max-sm:text-sm max-sm:text-center">
-              Send Us An E-mail
+              Follow Us On
             </p>
             <div className="flex gap-3 pt-[18px]">
               <a
@@ -59,7 +59,7 @@ const Footer = () => {
               </a>
               <a
                 target="_blank"
-                href="www.facebook.com"
+                href="https://www.facebook.com"
                 className="transition-all ease-linear duration-200 hover:scale-95"
               >
                 <FaceBookIcon />

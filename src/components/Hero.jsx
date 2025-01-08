@@ -14,7 +14,7 @@ const Hero = () => {
         className=" absolute left-0 bottom-0 max-xl:hidden  max-w-[322px]"
       />
       <div className=" container">
-        <div className="flex items-center pt-[146px] flex-wrap max-xl:pt-28 max-lg:pt-20 max-md:pt-10">
+        <div className="flex items-center pt-10 flex-wrap">
           <div className="w-8/12 max-lg:w-full max-xl:flex max-xl:justify-center max-xl:items-center max-xl:flex-col">
             <h1 className="text-white max-w-[705px] text-center text-[72px] font-bold leading-[86.4px] max-xl:text-6xl max-lg:text-5xl max-md:text-4xl">
               Innovate, Automate, Accelerate
@@ -23,7 +23,7 @@ const Hero = () => {
               Next Gen AI Automation to Scale Your Business.
             </p>
             <div className="flex items-center justify-center">
-              <CustomBtn btnText="Book A Call Now!"  myClass='min-w-[230px] py-[19.5px] mt-6 max-md:min-w-[190px]'/>
+              <CustomBtn btnText="Book A Call Now!"  myClass='min-w-[230px] py-[19.5px] mt-6 max-md:min-w-[170px] max-md:py-[15px]'/>
             </div>
           </div>
           <div className="w-4/12 max-lg:w-full">

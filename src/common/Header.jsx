@@ -19,12 +19,12 @@ const Header = () => {
     };
   }, [isOpen]);
   return (
-    <nav className="flex items-center justify-between pt-6 max-lg:pt-5 max-sm:pt-4">
+    <nav className="flex items-center justify-between">
       <a href="/">
         <img
           src="/assets/images/png/logo.png"
           alt="logo"
-          className="w-full max-w-[192px] max-xl:max-w-[160px]"
+          className="w-full max-w-[192px] max-xl:max-w-[160px] pt-6 max-lg:pt-5 max-sm:pt-4"
         />
       </a>
 
@@ -37,8 +37,9 @@ const Header = () => {
           {NAVBAR_LIST.map((obj, i) => (
             <li key={i} className={`${i === 6 ? "hidden" : ""}`}>
               <a
-                href={obj.path}
-                className="transition-all ease-linear duration-300 hover:text-sky-blue text-base font-normal text-white">
+                href={obj.link}
+                className="transition-all ease-linear duration-300 hover:text-sky-blue text-base font-normal text-white"
+              >
                 {obj.name}
               </a>
             </li>
