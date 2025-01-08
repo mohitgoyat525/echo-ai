@@ -8,7 +8,7 @@ import { TESTINOMIALS_LIST } from "../utils/helper";
 import CustomHeading from "../common/CustomHeading";
 
 
-const Testinomials = () => {
+const Testimonials = () => {
   return (
     <div
       id="testimonials"
@@ -87,4 +87,4 @@ const Testinomials = () => {
   );
 };
 
-export default Testinomials;
+export default Testimonials;

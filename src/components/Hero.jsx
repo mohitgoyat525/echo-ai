@@ -4,7 +4,10 @@ import CustomBtn from '../common/CustomBtn';
 
 const Hero = () => {
   return (
-    <div className="bg-cover bg-no-repeat bg-center bg-hero-bg  h-[840px] max-xl:h-full max-xl:justify-center relative">
+    <div
+      id="about"
+      className="bg-cover bg-no-repeat bg-center bg-hero-bg  h-[840px] max-xl:h-full max-xl:justify-center relative"
+    >
       <div className=" container">
         <Header />
       </div>
@@ -23,7 +26,10 @@ const Hero = () => {
               Next Gen AI Automation to Scale Your Business.
             </p>
             <div className="flex items-center justify-center">
-              <CustomBtn btnText="Book A Call Now!"  myClass='min-w-[230px] py-[19.5px] mt-6 max-md:min-w-[170px] max-md:py-[15px]'/>
+              <CustomBtn
+                btnText="Book A Call Now!"
+                myClass="min-w-[230px] py-[19.5px] mt-6 max-md:min-w-[170px] max-md:py-[15px]"
+              />
             </div>
           </div>
           <div className="w-4/12 max-lg:w-full">
